@@ -7,6 +7,8 @@ import numpy as np
 known_face_encodings = []
 known_face_names = []
 
+
+#making the directory
 known_faces_dir = 'known_faces'
 
 for filename in os.listdir(known_faces_dir):
